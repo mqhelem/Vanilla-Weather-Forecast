@@ -64,3 +64,12 @@ footer {
   border-top: 1px solid #cfd9df;
   padding-top: 20px;
 }
+.weather-forecast {
+  margin: 20px;
+  text-align: center;
+  color: #000;
+}
+.forecast-day,
+.min-temperature {
+  opacity: 0.6;
+}
