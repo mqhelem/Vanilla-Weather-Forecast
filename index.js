@@ -53,10 +53,12 @@ function changeDate(date) {
 function displayForecast() {
   let weatherForecast = document.querySelector("#forecast");
   let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  let forecastHtml = "";
   days.forEach(function (day) {
-    forecastHTML =
-      forecastHTML +
+    forecastHtml =
+      forecastHtml +
       `
+      
   <div class="row">
     <div class="c0l-2">
       <div class="forecast-day">${day}</div>
@@ -72,9 +74,15 @@ function displayForecast() {
   </div>
 `;
   });
-  weatherForecast.innerHTML = forecastHTML;
+  weatherForecast.innerHTML = forecastHtml;
 }
-displayForecast();
+function getForecast(city) {
+  let apiKey = "50863a45edtc0d26o66bb25fa39f84fc";
+  let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}&units=metric`;
+  console.log(apiUrl);
+}
+
 let searchForm = document.querySelector("#searchForm");
 searchForm.addEventListener("submit", handleSubmit);
 searchCity("Paris");
+displayForecast();

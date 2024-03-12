@@ -65,9 +65,11 @@ footer {
   padding-top: 20px;
 }
 .weather-forecast {
-  margin: 20px;
+  margin: 20px 0;
   text-align: center;
   color: #000;
+  display: flex;
+  justify-content: space-between;
 }
 .forecast-day,
 .min-temperature {
