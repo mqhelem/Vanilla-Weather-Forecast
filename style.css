@@ -10,17 +10,17 @@ body {
   max-width: 600px;
   border-radius: 20px;
   background-color: white;
-  box-shadow: 2px 2px 2px #ddd;
+  box-shadow: 2px 2px 2px #000;
 }
 .city {
   width: 80%;
   padding: 15px 0;
-  background-color: #cfd9df;
+  background-color: #ffefef;
   color: black;
 }
 .submit {
   padding: 15px 20px;
-  background-color: #fa360a;
+  background-color: #ff5d9e;
   margin-left: 10px;
   color: white;
 }
@@ -32,7 +32,7 @@ body {
   margin-bottom: 50px;
 }
 strong {
-  color: #fa360a;
+  color: #ff5d9e;
 }
 .weather {
   display: flex;
@@ -50,7 +50,7 @@ strong {
 }
 a {
   text-decoration: none;
-  color: #fa360a;
+  color: #ff5d9e;
 }
 
 .current-temperature {
@@ -76,7 +76,7 @@ footer {
 .forecast-day,
 .min-temperature {
   opacity: 0.7;
-  color: #fa360a;
+  color: #ff5d9e;
 }
 .weather-temperature {
   font-size: 12px;
