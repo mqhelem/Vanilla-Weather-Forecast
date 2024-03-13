@@ -20,7 +20,7 @@ body {
 }
 .submit {
   padding: 15px 20px;
-  background-color: #ef5f9a;
+  background-color: #fa360a;
   margin-left: 10px;
   color: white;
 }
@@ -32,12 +32,13 @@ body {
   margin-bottom: 50px;
 }
 strong {
-  color: #ef5f9a;
+  color: #fa360a;
 }
 .weather {
   display: flex;
   justify-content: space-between;
   padding-bottom: 10px;
+  border-top: 1px solid #cfd9df;
 }
 .temperature {
   font-size: 80px;
@@ -49,7 +50,7 @@ strong {
 }
 a {
   text-decoration: none;
-  color: #ef5f9a;
+  color: #fa360a;
 }
 
 .current-temperature {
@@ -65,13 +66,18 @@ footer {
   padding-top: 20px;
 }
 .weather-forecast {
-  margin: 20px 0;
+  margin: 20px 0 40px;
   text-align: center;
   color: #000;
   display: flex;
   justify-content: space-between;
+  font-weight: 800;
 }
 .forecast-day,
 .min-temperature {
-  opacity: 0.6;
+  opacity: 0.7;
+  color: #fa360a;
+}
+.weather-temperature {
+  font-size: 12px;
 }
